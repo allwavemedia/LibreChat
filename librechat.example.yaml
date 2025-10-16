@@ -277,7 +277,6 @@ endpoints:
       modelDisplayLabel: 'Mistral' # Default is "AI" when not set.
 
       # Add additional parameters to the request. Default params will be overwritten.
-      # addParams:
       # safe_prompt: true # This field is specific to Mistral AI: https://docs.mistral.ai/api/
 
       # Drop Default params parameters from the request. See default params in guide linked below.
@@ -441,3 +440,12 @@ endpoints:
 #     # instructions: "You are a memory management assistant. Store and manage user information accurately."
 #     # model_parameters:
 #     #   temperature: 0.1
+
+# Microsoft Learn MCP Tool
+# Documentation: https://learn.microsoft.com/en-us/training/support/mcp
+
+mcp_tool = {
+    "name": "Microsoft Learn MCP Tool",
+    "description": "A tool for accessing Microsoft Learn resources and support.",
+    "url": "https://learn.microsoft.com/en-us/training/support/mcp"
+}
